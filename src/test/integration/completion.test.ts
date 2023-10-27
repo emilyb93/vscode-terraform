@@ -26,6 +26,8 @@ suite('completion', () => {
       new vscode.CompletionItem('resource', vscode.CompletionItemKind.Class),
       new vscode.CompletionItem('terraform', vscode.CompletionItemKind.Class),
       new vscode.CompletionItem('variable', vscode.CompletionItemKind.Class),
+      new vscode.CompletionItem('variables', vscode.CompletionItemKind.Class),
+      new vscode.CompletionItem('run', vscode.CompletionItemKind.Class),
       new vscode.CompletionItem({ label: 'fore', description: 'For Each' }, vscode.CompletionItemKind.Snippet),
       new vscode.CompletionItem({ label: 'module', description: 'Module' }, vscode.CompletionItemKind.Snippet),
       new vscode.CompletionItem({ label: 'output', description: 'Output' }, vscode.CompletionItemKind.Snippet),
